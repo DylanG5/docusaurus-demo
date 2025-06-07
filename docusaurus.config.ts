@@ -13,11 +13,12 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/',
+  url: 'https://mcmaster-exoskeleton.github.io',
+  baseUrl: '/docusaurus-demo/',
 
-  organizationName: 'mcmaster-exoskeleton', // <-- update to your org/user name
-  projectName: 'exoskeleton-website', // <-- update to your repo name
+  organizationName: 'mcmaster-exoskeleton', // GitHub org/user name
+  projectName: 'docusaurus-demo', // GitHub repo name
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
